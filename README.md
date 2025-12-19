@@ -1,5 +1,5 @@
 # How to use
-The program takes the input like this:(integer)(space)(operation)(space)(integer).
+The program takes the input like this: (integer)(space)(operation)(space)(integer).
 
 example: 
 `Enter the equation: 6 * 7`
