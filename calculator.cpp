@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -21,8 +22,10 @@ int main(){
             break;
             case '/':cout<<divi(x,y);
             break;
+            case '^':cout<<pow(x,y);
+            break;
         }
-        while(a!='y' and a!='n'){cout<<"\nTry again?(y/n): ";cin>>a;}
+        while(a!='y' and a!='n'){cout<<"\nTry again?(y/n): ";cin>>a;if(a!='y' and a!='n'){cout<<"invalid input";}}
         if(a=='n'){break;}
         a='b';
         
