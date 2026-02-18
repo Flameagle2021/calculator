@@ -3,13 +3,13 @@
 
 using namespace std;
 
-int add(int x,int y){return x+y;}
-int sub(int x,int y){return x-y;}
-int mult(int x,int y){return x*y;}
-void divi(int x,int y){if(y==0){cout<<"Can't divide by zero\n";}cout<<x/y;}
+double add(double x,double y){return x+y;}
+double sub(double x,double y){return x-y;}
+double mult(double x,double y){return x*y;}
+void divi(double x,double y){if(y==0){cout<<"Can't divide by zero\n";}cout<<x/y;}
 
 int main(){
-    int x,y;char o;
+    double x,y;char o;
     while(true){
         char a='b';
         cout<<"Enter the equation: ";cin>>x>>o>>y;
