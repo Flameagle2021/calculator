@@ -6,7 +6,7 @@ using namespace std;
 int add(int x,int y){return x+y;}
 int sub(int x,int y){return x-y;}
 int mult(int x,int y){return x*y;}
-int divi(int x,int y){return x/y;}
+void divi(int x,int y){if(y==0){cout<<"Can't divide by zero\n";}cout<<x/y;}
 
 int main(){
     int x,y;char o;
@@ -20,7 +20,7 @@ int main(){
             break;
             case '*':cout<<mult(x,y);
             break;
-            case '/':cout<<divi(x,y);
+            case '/':divi(x,y);
             break;
             case '^':cout<<pow(x,y);
             break;
